@@ -2,9 +2,9 @@
 
 /* color scheme */
 :root {
-    --header-bg-color: #222;
-    --header-txt-color: #aaa;
-    --header-highlight-color: white;
+    --header-bg-color: #221;
+    --header-txt-color:blue;
+    --header-highlight-color: rgb(253, 161, 233);
 }
 
 .contact .navbar-inverse .navbar-nav > li > a[href="contact.html"], 
@@ -12,7 +12,7 @@
 .index .navbar-inverse a.navbar-brand[href="."]
 {
     color:var(--header-highlight-color);
-    background-color: inherit;
+    background-color: blue;
 }
 
 main {
@@ -23,10 +23,10 @@ footer {
 }
 
 .navbar-inverse{
-    color:var(--header-txt-color);
-    background-color: var(--header-bg-color);
+    color:black;
+    background-color:  rgb(253, 161, 233) ;
 }
 
 .navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
-    color: inherit;
+    color: blue;
 }
